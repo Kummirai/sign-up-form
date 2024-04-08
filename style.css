@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.siteName{
+    background-image: url("images/backgroundImage.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+.myHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.odinLogo{
+  width: 80px;  
+}
+
+.myHeadingText{
+    color: white;
+}
+
+.mySection{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffe ;
+    width: 70%;
+}
