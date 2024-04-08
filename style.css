@@ -30,6 +30,15 @@
 .mySection{
     display: flex;
     flex-direction: column;
-    background-color:#ffe ;
+    justify-content: center;
+    background-color:whitesmoke ;
     width: 70%;
+    height: 100%;
+}
+
+.myForm, .bottomSection, .intro{
+    height: 33%;
+}
+.myForm{
+    background-color: white;
 }
