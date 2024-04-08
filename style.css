@@ -62,9 +62,10 @@
 .bottomSection button{
     background-color: #596D48;
     color: white;
-    padding: 8px 16px ;
+    padding: 10px 20px ;
     border-radius: 3px;
     border: none;
+    font-size: 16px;
 }
 .bottomSection button:hover{
     background-color: #596D4895;
