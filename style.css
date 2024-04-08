@@ -37,16 +37,25 @@
     
 }
 .formHeading{
-    padding: 20px;
+    padding:  9px 20px;
 }
 
-.myForm, .bottomSection, .intro{
-    height: 33%;
+.bottomSection{
+    margin: 30px;
+    background-color: whitesmoke;
+}
+
+.bottomSection button{
+    background-color: #596D48;
+    color: white;
+    padding: 8px 12px ;
+    border-radius: 3px;
+    border: none;
 }
 .myForm{
     background-color: white;
 }
-form{
+.formInputs{
     display: flex;
     gap: 30px;
 }
@@ -57,5 +66,14 @@ form{
     margin-left: 20px;
 }
 label{
-    padding: 5px;
+
+    padding: 4px;
 }
+
+input{
+    width: 300px;
+    height: 32px;
+}
+
+.mySection P{
+    width: 80%;

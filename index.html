@@ -16,48 +16,52 @@
         </div>
         <div class="mySection">
             <div class="intro">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic rerum qui vel voluptatem temporibus atque earum quo ab sit nam, beatae dolor alias laboriosam iusto eos quidem, eius laudantium. Corrupti.</p>
-                <p>Lorem ipsum dolor sit.</p>
+                <p class="intro-first-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic rerum qui vel voluptatem temporibus atque earum quo ab sit nam, beatae dolor alias laboriosam iusto eos quidem, eius laudantium. Corrupti.</p>
+                <p class="intro-second-text">Lorem ipsum dolor sit.</p>
             </div>
             <div class="myForm">
                 <h2 class="formHeading">Lets do this</h2>
                 <form action="">
-                    <div class="formLeftSection">
-                        <div class="firstName">
-                            <label for="firstName"> FIRST NAME</label>
-                            <input type="text" name="username" id="firstName">
+                    <div class="formInputs">
+                        <div class="formLeftSection">
+                            <div class="firstName">
+                                <label for="firstName"> FIRST NAME</label>
+                                <input type="text" name="username" id="firstName">
+                            </div>
+                            <div class="email">
+                                <label for="email">EMAIL</label>
+                                <input type="eamil" name="userEmail" id="email">
+                            </div>
+                            <div class="password">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="userPassword" id="password">
+                            </div>
                         </div>
-                        <div class="email">
-                            <label for="email">EMAIL</label>
-                            <input type="eamil" name="userEmail" id="email">
-                        </div>
-                        <div class="password">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="userPassword" id="password">
+                        <div class="formRightSection">
+                            <div class="lastName">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" name="usersurname" id="lastName">
+                            </div>
+                            <div class="phoneNumber">
+                                <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="tel" name="userPhoneNumber" id="phoneNumber">
+                            </div>
+                            <div class=c_password">
+                                <label for="c_password"> CONFIRM PASSWORD</label>
+                                <input type="password" name="c_userPassword" id="c_password">
+                            </div>
                         </div>
                     </div>
-                    <div class="formRightSection">
-                        <div class="lastName">
-                            <label for="lastName">LAST NAME</label>
-                            <input type="text" name="usersurname" id="lastName">
-                        </div>
-                        <div class="phoneNumber">
-                            <label for="phoneNumber">PHONE NUMBER</label>
-                            <input type="tel" name="userPhoneNumber" id="phoneNumber">
-                        </div>
-                        <div class=c_password">
-                            <label for="c_password"> CONFIRM PASSWORD</label>
-                            <input type="password" name="c_userPassword" id="c_password">
-                        </div>
+                    
+                    <div class="bottomSection">
+                        <button type="submit"> Create Acccount</button>
+                        <p class="login">
+                            Already have an account?<a href="#">log in</a>
+                        </p>
                     </div>
                 </form>
             </div>
-            <div class="bottomSection">
-                <button type="submit"> Create Acccount</button>
-                <p class="login">
-                    Already have an account?<a href="#">log in</a>
-                </p>
-            </div>
+            
         </div>
     </div>
 </body>
