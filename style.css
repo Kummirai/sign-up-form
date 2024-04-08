@@ -49,14 +49,14 @@
     ;
 }
 .formHeading{
-    padding:  9px 30px;
+    padding:  35px 30px;
     font-size: 18px;
     font-weight: 700;
 }
 
 .bottomSection{
     margin: 30px;
-    background-color: whitesmoke;
+
 }
 
 .bottomSection button{
