@@ -34,6 +34,10 @@
     background-color:whitesmoke ;
     width: 70%;
     height: 100%;
+    
+}
+.formHeading{
+    padding: 20px;
 }
 
 .myForm, .bottomSection, .intro{
@@ -41,4 +45,17 @@
 }
 .myForm{
     background-color: white;
+}
+form{
+    display: flex;
+    gap: 30px;
+}
+
+.formLeftSection>div, .formRightSection>div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+label{
+    padding: 5px;
 }
